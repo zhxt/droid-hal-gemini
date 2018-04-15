@@ -9,6 +9,14 @@
 # define device_target_cpu aarch64
 %define straggler_files \
         /init.qcom.sh \
+        /bugreports \
+        /d \
+        /file_contexts.bin \
+        /property_contexts \
+        /sdcard \
+        /selinux_version \
+        /service_contexts \
+        /vendor \
         %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
